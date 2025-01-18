@@ -16,7 +16,7 @@ Password: tester
 
 If you require Admin Actions such as register account, task approval and order approvals, you may contact me at shengbin.chan@gmail.com! 
 
-## Getting started
+## Getting started for Development
 
 Requirements:
 - Make sure you have npm installed beforehand.

@@ -1,4 +1,4 @@
-# Hack4Good2025
+# Minimart and Voucher System for Muhammadiyah Welfare Home
 
 Team Gone4Good's submission for Hack4Good2025. (Backed up from https://github.com/ShengBin-101/Hack4Good2025, as the repository stopped working)
 

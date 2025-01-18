@@ -1,0 +1,45 @@
+@import './Colors.css';
+@import './Common.css';
+
+.admin-dashboard {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-bg);
+  padding: 20px;
+  text-align: center;
+}
+
+.admin-main {
+  background-color: rgb(186, 216, 239);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+.nav-button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.logout-button {
+  margin-left: auto;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: darkred;
+}

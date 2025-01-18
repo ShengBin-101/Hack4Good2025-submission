@@ -1,0 +1,72 @@
+@import './Colors.css';
+.transaction-management {
+  padding: 20px;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--primary-color);
+}
+
+.nav-button, .logout-button {
+  margin: 0 10px;
+}
+
+.transaction-main {
+  margin: 20px;
+  height: 40vw;
+  
+  /* max-height: calc(100vh - 150px); Adjust based on header and padding */
+  overflow-y: auto;
+  background-color:  rgba(224, 240, 238, 0.932);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+.transactions-section {
+  margin-top: 20px;
+}
+
+.transaction-list {
+  list-style-type: none;
+  padding: 0;
+  max-height: 70vh; /* Adjust based on your layout */
+  overflow-y: auto;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.transaction-info {
+  flex: 1;
+}
+
+.transaction-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.approve-button, .reject-button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.approve-button {
+  background-color: green;
+  color: white;
+}
+
+.reject-button {
+  background-color: red;
+  color: white;
+}

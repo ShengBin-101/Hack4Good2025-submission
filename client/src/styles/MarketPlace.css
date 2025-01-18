@@ -1,0 +1,134 @@
+.marketplace-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--color-primary);
+  border-radius: 10px;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.header-buttons .nav-button {
+  margin-right: 10px;
+}
+
+.logout-button {
+  margin-left: auto;
+}
+
+.voucher-count {
+  margin-right: auto; /* Pushes the voucher count to the left */
+}
+
+.header-buttons button {
+  margin: 0 10px;
+}
+
+
+.logout-button:hover {
+  background-color: var(--color-primary);
+}
+
+.marketplace-main {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80vw; /* 80% of the viewport width */
+  height: 70vh; /* 70% of the viewport height */
+  overflow-y: auto; /* Add vertical scroll if content overflows */
+  margin: 0 auto; /* Center the div horizontally */
+}
+
+.marketplace-main h2 {
+  color: var(--color-primary);
+}
+
+.products-section {
+  margin-bottom: 20px;
+}
+
+.product-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-accent);
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.order-section {
+  background-color: var(--color-bg);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; /* Center the div horizontally and add margin */
+  width: 40vw; /*50vw*/
+  /* 70% of the viewport height */
+  overflow-y: auto;
+  /* Add vertical scroll if content overflows */
+  margin: 20px auto;
+  /* Center the div horizontally */
+  border-style: solid;
+  border-color: rgb(145, 214, 237);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.order-section h2 {
+  color: var(--color-primary);
+}
+
+.order-section label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.order-section input[type="number"] {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid var(--color-secondary);
+  width: 10vw;
+  margin: auto;
+
+}
+
+.order-section button {
+  background-color: var(--color-primary);
+  color: var(--text-color);
+  padding: 10px 20px;
+  margin: 2px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 10vw;
+}
+
+.order-section button:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.marketplace-heading {
+  color: aliceblue;
+  margin-right: 20vw;
+}

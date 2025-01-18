@@ -1,0 +1,133 @@
+@import './Colors.css';
+@import './Common.css';
+
+.quest-management {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-bg);
+    padding: 20px;
+    text-align: center;
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.admin-header h1 {
+    margin: 0;
+}
+
+.nav-button {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.nav-button:hover {
+    background-color: var(--color-primary);
+}
+
+.quest-main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80vw;
+    height: 70vh;
+    overflow-y: auto;
+    margin: 0 auto;
+}
+
+.quest-main h2 {
+    color: var(--color-primary);
+}
+
+.quests-section {
+    margin-bottom: 20px;
+}
+
+.quest-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quest-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-accent);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.quest-item:hover {
+    background-color: var(--color-secondary);
+}
+
+.quest-info {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.add-quest-section {
+    margin-top: 20px;
+    width: 20vw;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid var(--color-primary);
+    border-radius: 10px;
+}
+
+.add-quest-section h2 {
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+
+.add-quest-section label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.add-quest-section input[type="text"],
+.add-quest-section input[type="number"] {
+    align-self: center;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--color-secondary);
+    width: 10vw; /* Make the width of form fields uniform */
+    margin: 20px;
+}
+
+.add-quest-section button {
+    background-color: var(--color-primary);
+    color: var(--text-color);
+    padding: 10px 20px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Make the button take full width */
+}
+
+.add-quest-section button:hover {
+    background-color: var(--primary-hover-color);
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}

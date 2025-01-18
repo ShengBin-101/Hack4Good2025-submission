@@ -1,0 +1,9 @@
+:root {
+  --color-primary: #37AFE1;
+  --color-secondary: #4CC9FE;
+  --color-bg: #ffffff00;
+  --color-accent: #FFFECB;
+  --color-hover: #488ffa;
+  --color-delete: rgb(255, 131, 131); /* Red color for delete buttons */
+  --color-delete-hover: #ff0000; /* Darker red for delete button hover */
+}

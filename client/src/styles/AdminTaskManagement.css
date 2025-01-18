@@ -1,0 +1,133 @@
+@import './Colors.css';
+
+.admin-task-management {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-bg);
+    padding: 20px;
+    text-align: center;
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.admin-header h1 {
+    margin: 0;
+}
+
+.nav-button {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.nav-button:hover {
+    background-color: var(--color-primary);
+}
+
+.logout-button {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.logout-button:hover {
+    background-color: var(--color-primary);
+}
+
+.admin-task-main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80vw;
+    height: 70vh;
+    overflow-y: auto;
+    margin: 0 auto;
+}
+
+.admin-task-main h2 {
+    color: var(--color-primary);
+}
+
+.tasks-section {
+    margin-bottom: 20px;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-accent);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.task-item:hover {
+    background-color: var(--color-secondary);
+}
+
+.task-info {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.task-picture {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.task-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.approve-button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.approve-button:hover {
+    background-color: #45a049;
+}
+
+.reject-button {
+    background-color: #f44336;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.reject-button:hover {
+    background-color: #e53935;
+}

@@ -4,6 +4,18 @@ Team Gone4Good's submission for Hack4Good2025. (Backed up from https://github.co
 
 Prototype deployed on Vercel. Link: https://hack4-good2025-submission-frontend.vercel.app/
 
+## Testing the Prototype as a User
+
+```
+Email: tester53322@gmail.com
+Password: tester
+```
+
+> [!IMPORTANT]
+> If you want to register your own account, the OTP will be sent to your email and in the SPAM folder. To enable the link in the email, you have to report the email as "Not Phishing".
+
+If you require Admin Actions such as register account, task approval and order approvals, you may contact me at shengbin.chan@gmail.com! 
+
 ## Getting started
 
 Requirements:

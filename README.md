@@ -1,12 +1,37 @@
 # Hack4Good2025
 
+Team Gone4Good's submission for Hack4Good2025. Prototype deployed on Vercel.
+
 ## Getting started
 
-After cloning the repo, run
+Requirements:
+- Make sure you have npm installed beforehand.
+
+1) Clone the Repo
+2) After cloning the repo, go to `path/to/Hack4Good2025-submission/` and run
 
 ```
 npm install
 ```
+
+3) Go to `path/to/Hack4Good2025-submission/client/` and run
+```
+npm install
+```
+4) Once Dependencies are installed, we can run the web app on `localhost:3000`
+
+Terminal 1: Start Front End
+```
+cd path/to/Hack4Good2025-submission/client/
+npm start
+```
+
+Terminal 2: Connect to Back End
+```
+cd path/to/Hack4Good2025-submission/server/
+nodemon index.js
+```
+
 
 # Feature Documentation
 

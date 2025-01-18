@@ -1,6 +1,7 @@
 # Hack4Good2025
 
-Team Gone4Good's submission for Hack4Good2025. Prototype deployed on Vercel.
+Team Gone4Good's submission for Hack4Good2025. 
+Prototype deployed on Vercel. Link: https://hack4-good2025-submission-frontend.vercel.app/
 
 ## Getting started
 

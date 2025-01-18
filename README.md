@@ -1,6 +1,6 @@
 # Hack4Good2025
 
-Team Gone4Good's submission for Hack4Good2025. 
+Team Gone4Good's submission for Hack4Good2025. (Backed up from https://github.com/ShengBin-101/Hack4Good2025, as the repository stopped working)
 
 Prototype deployed on Vercel. Link: https://hack4-good2025-submission-frontend.vercel.app/
 

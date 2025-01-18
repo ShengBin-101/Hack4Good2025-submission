@@ -4,6 +4,12 @@ Team Gone4Good's submission for Hack4Good2025. (Backed up from https://github.co
 
 Prototype deployed on Vercel. Link: https://hack4-good2025-submission-frontend.vercel.app/
 
+## Tech Stack
+
+- Frontend: React, CSS
+- Backend: Node.js, Express
+- Database: MongoDB
+
 ## Testing the Prototype as a User
 
 ```
